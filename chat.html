@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="deco/style.css">
+    <title>Friend - Kokoa Clone</title>
+</head>
+
+
+<body>
+
+    <!-- 상태바 -->
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No service</span>
+            <i class="fa-solid fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+            <i class="fa-solid fa-lock"></i>
+            <span>99%</span>
+            <i class="fa-solid fa-battery-full"></i>
+            <i class="fa-solid fa-bolt"></i>
+        </div>
+    </div>
+
+        <!-- 헤더 -->      
+        <header class="screen-header">
+            <h1 class="screen-header__title">Chats</h1>
+            <div class="screen-header__icons">
+                <span><i class="fa-solid fa-magnifying-glass fa-xl"></i></span>
+                <span><i class="fa-regular fa-comment fa-xl"></i></span>
+                <span><i class="fa-solid fa-music fa-xl"></i></span>
+                <span><i class="fa-solid fa-gear fa-xl"></i></span>
+            </div>
+        </header>
+        
+        <!-- 채팅 목록 -->
+        <main class="main-screen">
+            <div class="user-component">
+                <div class="user-component__column">
+                    <img class="user-component__photo" src="images/rangdung.jpeg"/>
+                    <div class="user-component__text">
+                        <h4 class="user-component__name">나와의 채팅</h4>
+                        <h6 class="user-component__message">귀찮아도 참고 계속 공부를 계속하고 있다 개굿!</h6>
+                    </div>
+                </div>
+                <div class="user-component__column"></div>
+                <div class="user-component__column">
+                    <span>16:02</span>
+                </div>
+            </div>
+
+            <a href="chatroom.html">
+                <div class="user-component">
+                    <div class="user-component__column">
+                        <img class="user-component__photo" src="images/mini.jpg"/>
+                        <div class="user-component__text">
+                            <h4 class="user-component__name">Prince Joo</h4>
+                            <h6 class="user-component__message">I Love Jayeong So Much@#~!</h6>
+                        </div>
+                    </div>
+                    <div class="user-component__column">
+                        <span class="user-component__time">11:11</span>
+                        <span class="badge">1</span>
+                    </div>
+                </div>
+            </a>
+
+            <div class="user-component">
+                <div class="user-component__column">
+                    <img class="user-component__photo" src="images/rangdung2.jpeg"/>
+                    <div class="user-component__text">
+                        <h4 class="user-component__name">가게</h4>
+                        <h6 class="user-component__message">Why are you worring too much?</h6>
+                    </div>
+                </div>
+                <div class="user-component__column">
+                    <span class="user-component__time">21:22</span>
+                    <span class="badge">1</span>
+                </div>
+            </div>
+        </main> 
+
+    <!-- GNB -->
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__btn">
+                <a class="nav_link" href="friends.html">
+                <i class="far fa-user fa-2x"></i></a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav_link" href="chat.html">
+                <span class="nav__chat-notification badge">2</span>
+                <i class="fa-solid fa-comment fa-2x"></i></a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav_link" href="find.html">
+                <i class="fa-solid fa-magnifying-glass fa-2x"></i></a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav_link" href="more.html">
+                    <span class="nav__more-notification badge badge--small"></span>
+                <i class="fa-solid fa-ellipsis fa-2x"></i></a>
+            </li>
+        </ul>
+    </nav>
+    <div id="no-moblie">
+        <span>Your Screen is Too Big to Me ㅠㅠ</span>
+    </div>
+    <!-- js file -->
+    <script src="https://kit.fontawesome.com/ccbd1847cd.js" crossorigin="anonymous"></script>
+</body>
+</html>
+
